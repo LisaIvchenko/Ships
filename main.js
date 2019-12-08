@@ -29,7 +29,7 @@ function moveShip(ship, direction, distance) {
             ship.distance += distance;
             break;
         default:
-            console.warn('Неверный курс');
+            console.warn('Неверный введен курс');
     }
 }
 
